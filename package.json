@@ -1,13 +1,9 @@
 {
-  "name": "comp229-m2022-lesson4",
-  "version": "0.0.3",
-  "description": "Demo Project for COMP229 in the Summer 2022 semester for Lesson 4",
-  "main": "server.js",
-  "author": "Tom Tsiliopoulos",
-  "license": "MIT",
+  "name": "comp229-assignment-1",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./server.js"
   },
   "engines": {
     "node": "18.1.0",

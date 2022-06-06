@@ -32,8 +32,8 @@
             let subject = document.getElementById('subject').value;
 
             let content = "" + document.getElementById('content').value + '%0A%0A';
-            content += "From:" + name.value + '%0A';
-            content += "Email:" + email.value + '%0A';
+            content += "From:" + name.value + '%0a';
+            content += "Email:" + email.value + '%0a';
 
             mailTo.href = "mailto:" + to + "?subject" + "&body=" + body;
             mailTo.click();

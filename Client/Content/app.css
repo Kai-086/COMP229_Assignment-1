@@ -1,4 +1,12 @@
-/* custom css goes here */
+/* 
+    File Name: app.css
+    Student's Name: Kai-Pang
+    Student ID: 301207607
+    Date: June-05-2022
+ */
+
+
+ /* img uses */ 
 .img-logo {
     width: 128px;
     height: 128px;
@@ -9,7 +17,7 @@
 .img-photo {
     width: 400px;
     height: 400px;
-    padding: 20px;
+    padding: 10px;
     float: left;
 }
 
@@ -35,11 +43,37 @@
     display: inline;
 }
 
+/* p uses */
+p {
+    width: 60%;
+    height: 100%;
+    font-size: 18px;
+    text-align: left;
+    margin: 10px auto 10px;
+}
+
 p.text-logo {
     width: 100%;
     font-size: 70px;
     margin: 0 20px;
     text-align: left;
+    display: block;
+}
+
+
+p.intro {
+    text-align: center;
+}
+
+p.photo {
+    float: right;
+    padding: 10px;
+    margin: 0;
+}
+
+p.project {
+    width: 100%;
+    text-align: center;
     display: block;
 }
 
@@ -97,30 +131,6 @@ div.service {
 
 div.project_text {
     width: 100%;
-}
-
-p {
-    width: 60%;
-    height: 100%;
-    font-size: 18px;
-    text-align: left;
-    margin: 10px auto 10px;
-}
-
-p.intro {
-    text-align: center;
-}
-
-p.photo {
-    float: right;
-    padding: 20px;
-    margin: 0;
-}
-
-p.project {
-    width: 100%;
-    text-align: center;
-    display: block;
 }
 
 button.about_btn {

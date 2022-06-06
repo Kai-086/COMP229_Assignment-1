@@ -1,3 +1,9 @@
+/* 
+    File Name: app.js
+    Student's Name: Kai-Pang
+    Student ID: 301207607
+    Date: June-05-2022
+ */
 "use strict";
 (function () {
     function Start() {
@@ -15,6 +21,7 @@
     }
     window.addEventListener("load", Start);
 
+    // for contact page Email uses
     function Sent() {
         let emailBtn = document.getElementById('email_btn');
 

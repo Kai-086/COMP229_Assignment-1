@@ -1,6 +1,6 @@
 /* 
     File Name: app.css
-    Student's Name: Kai-Pang
+    Student's Name: Kai-Pang Hung
     Student ID: 301207607
     Date: June-05-2022
  */
@@ -19,6 +19,7 @@
     height: 400px;
     padding: 10px;
     float: left;
+    display: inline;
 }
 
 .img-project {
@@ -142,6 +143,7 @@ button.about_btn {
     border-radius: 16px;
     justify-content: center;
     float: right;
+    display: inline;
     margin: 40px;
     background: #b3b6c9;
     cursor: pointer;

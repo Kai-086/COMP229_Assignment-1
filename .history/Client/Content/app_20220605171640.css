@@ -1,0 +1,39 @@
+/* custom css goes here */
+body {
+    height: 100%;
+    color: #000000;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    margin: 0 auto;
+}
+
+.img-logo {
+    width: 128px;
+    height: 128px;
+    margin-left: 40px;
+}
+
+.text-logo {
+    font-size: 70px;
+    margin: 0 20px;
+    display: inline;
+
+}
+
+footer {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #646464;
+    position: relative;
+}
+
+hr {
+    width: 60%;
+    border: 0;
+    padding: 3px;
+    margin: 30px auto 10px; 
+    background: linear-gradient(135deg, red, orange,green, blue, purple);
+    --mask-image: repeating-linear-gradient(135deg, #000 0px, #000 1px, transparent 1px, transparent 6px);
+    -webkit-mask-image: var(--mask-image);
+    mask-image: var(--mask-image);
+}
